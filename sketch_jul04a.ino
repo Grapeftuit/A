@@ -26,11 +26,11 @@ void loop()
            break;
       case'l':
           left();
-          ledl;
+          ledl();
           break;
       case'r':
           right();
-          ledr;
+          ledr();
           break;
       case'S':
           stop();
