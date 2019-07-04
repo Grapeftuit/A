@@ -52,8 +52,8 @@ void forward()
 {
    digitalWrite(5,LOW);
    digitalWrite(6,HIGH);
-   digitalWrite(9,LOW);
-   digitalWrite(10,HIGH);
+   digitalWrite(9,HIGH);
+   digitalWrite(10,LOW);
 } 
   void left()
 {
@@ -66,8 +66,8 @@ void forward()
 {
    digitalWrite(5,LOW);
    digitalWrite(6,HIGH);
-   digitalWrite(9,HIGH);
-   digitalWrite(10,LOW);
+   digitalWrite(9,LOW);
+   digitalWrite(10,HIGH);
 } 
 void stop()
 {
